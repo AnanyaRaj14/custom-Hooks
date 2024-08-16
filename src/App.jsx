@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import { useState } from 'react'
+import CurrencyConverter from './components/currency-converter'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Currency Converter</h1>
-    </>
+    <div className="min-h-screen bg-green-200 flex flex-col items-center justify-center">
+      hello ananya
+      <CurrencyConverter/>
+    </div>
+
   )
 }
 
